@@ -109,3 +109,9 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+# Production ML models - Causal V2 only
+!backend/artifacts/causal_v2/*.joblib
+
+# Local backup files
+*.bak
