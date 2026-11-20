@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:17
+    container_name: facilityops-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: facilityops
+      POSTGRES_PASSWORD: facilityops_dev_password
+      POSTGRES_DB: facilityops_db
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

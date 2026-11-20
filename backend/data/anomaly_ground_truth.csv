@@ -1,0 +1,313 @@
+meter_id,timestamp,anomaly_label,severity,description
+HVAC-01,2026-08-29T03:00:00+00:00,unexpected_night_consumption,HIGH,HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+MAIN-METER-01,2026-08-29T03:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+HVAC-01,2026-08-29T04:00:00+00:00,unexpected_night_consumption,HIGH,HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+MAIN-METER-01,2026-08-29T04:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+HVAC-01,2026-08-29T05:00:00+00:00,unexpected_night_consumption,HIGH,HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+MAIN-METER-01,2026-08-29T05:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+HVAC-01,2026-08-29T06:00:00+00:00,unexpected_night_consumption,HIGH,HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+MAIN-METER-01,2026-08-29T06:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+HVAC-01,2026-08-29T07:00:00+00:00,unexpected_night_consumption,HIGH,HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+MAIN-METER-01,2026-08-29T07:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+HVAC-01,2026-08-29T08:00:00+00:00,unexpected_night_consumption,HIGH,HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+MAIN-METER-01,2026-08-29T08:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+HVAC-01,2026-08-29T09:00:00+00:00,unexpected_night_consumption,HIGH,HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+MAIN-METER-01,2026-08-29T09:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+HVAC-01,2026-08-29T10:00:00+00:00,unexpected_night_consumption,HIGH,HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+MAIN-METER-01,2026-08-29T10:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: HVAC chiller schedule override failed; chiller ran continuously at full cooling overnight
+LIGHTING-01,2026-09-04T03:00:00+00:00,unexpected_night_consumption,MEDIUM,Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+MAIN-METER-01,2026-09-04T03:00:00+00:00,unexpected_night_consumption,MEDIUM,Combined meter reflects submeter anomaly: Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+LIGHTING-01,2026-09-04T04:00:00+00:00,unexpected_night_consumption,MEDIUM,Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+MAIN-METER-01,2026-09-04T04:00:00+00:00,unexpected_night_consumption,MEDIUM,Combined meter reflects submeter anomaly: Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+LIGHTING-01,2026-09-04T05:00:00+00:00,unexpected_night_consumption,MEDIUM,Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+MAIN-METER-01,2026-09-04T05:00:00+00:00,unexpected_night_consumption,MEDIUM,Combined meter reflects submeter anomaly: Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+LIGHTING-01,2026-09-04T06:00:00+00:00,unexpected_night_consumption,MEDIUM,Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+MAIN-METER-01,2026-09-04T06:00:00+00:00,unexpected_night_consumption,MEDIUM,Combined meter reflects submeter anomaly: Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+LIGHTING-01,2026-09-04T07:00:00+00:00,unexpected_night_consumption,MEDIUM,Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+MAIN-METER-01,2026-09-04T07:00:00+00:00,unexpected_night_consumption,MEDIUM,Combined meter reflects submeter anomaly: Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+LIGHTING-01,2026-09-04T08:00:00+00:00,unexpected_night_consumption,MEDIUM,Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+MAIN-METER-01,2026-09-04T08:00:00+00:00,unexpected_night_consumption,MEDIUM,Combined meter reflects submeter anomaly: Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+LIGHTING-01,2026-09-04T09:00:00+00:00,unexpected_night_consumption,MEDIUM,Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+MAIN-METER-01,2026-09-04T09:00:00+00:00,unexpected_night_consumption,MEDIUM,Combined meter reflects submeter anomaly: Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+LIGHTING-01,2026-09-04T10:00:00+00:00,unexpected_night_consumption,MEDIUM,Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+MAIN-METER-01,2026-09-04T10:00:00+00:00,unexpected_night_consumption,MEDIUM,Combined meter reflects submeter anomaly: Full-floor high-bay lighting remained energized overnight following office deep-cleaning
+HVAC-01,2026-09-11T19:00:00+00:00,power_spike,CRITICAL,Chiller compressor startup electrical transient and severe power surge
+MAIN-METER-01,2026-09-11T19:00:00+00:00,power_spike,CRITICAL,Combined meter reflects submeter anomaly: Chiller compressor startup electrical transient and severe power surge
+PLUG-LOAD-01,2026-09-15T05:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T05:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T06:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T06:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T07:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T07:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T08:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T08:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T09:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T09:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T10:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T10:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T11:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T11:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T12:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T12:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T13:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T13:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T14:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T14:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T15:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T15:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T16:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T16:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T17:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T17:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T18:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T18:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T19:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T19:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T20:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T20:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T21:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T21:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T22:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T22:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-15T23:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-15T23:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-16T00:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-16T00:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-16T01:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-16T01:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-16T02:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-16T02:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-16T03:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-16T03:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+PLUG-LOAD-01,2026-09-16T04:00:00+00:00,sustained_high_consumption,HIGH,Unapproved heavy batch computing workload running continuously across workstation farm
+MAIN-METER-01,2026-09-16T04:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved heavy batch computing workload running continuously across workstation farm
+LIGHTING-01,2026-09-22T15:00:00+00:00,power_spike,MEDIUM,High-voltage lighting panel transient spike and power surge
+MAIN-METER-01,2026-09-22T15:00:00+00:00,power_spike,MEDIUM,Combined meter reflects submeter anomaly: High-voltage lighting panel transient spike and power surge
+HVAC-01,2026-09-30T05:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T05:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T06:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T06:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T07:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T07:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T08:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T08:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T09:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T09:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T10:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T10:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T11:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T11:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T12:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T12:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T13:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T13:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T14:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T14:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T15:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T15:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T16:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T16:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T17:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T17:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T18:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T18:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T19:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T19:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T20:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T20:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T21:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T21:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T22:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T22:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-09-30T23:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-09-30T23:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T00:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T00:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T01:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T01:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T02:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T02:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T03:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T03:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T04:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T04:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T05:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T05:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T06:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T06:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T07:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T07:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T08:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T08:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T09:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T09:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T10:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T10:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T11:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T11:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T12:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T12:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T13:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T13:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T14:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T14:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T15:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T15:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+HVAC-01,2026-10-01T16:00:00+00:00,sustained_high_consumption,CRITICAL,Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+MAIN-METER-01,2026-10-01T16:00:00+00:00,sustained_high_consumption,CRITICAL,Combined meter reflects submeter anomaly: Stuck economizer damper and simultaneous reheat cycle malfunction causing 36h cooling fight
+PLUG-LOAD-01,2026-10-08T15:00:00+00:00,power_spike,HIGH,Server lab equipment electrical fault and temporary high load surge
+MAIN-METER-01,2026-10-08T15:00:00+00:00,power_spike,HIGH,Combined meter reflects submeter anomaly: Server lab equipment electrical fault and temporary high load surge
+HVAC-01,2026-10-22T03:00:00+00:00,unexpected_night_consumption,HIGH,After-hours chiller cooling override left active overnight
+MAIN-METER-01,2026-10-22T03:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: After-hours chiller cooling override left active overnight
+HVAC-01,2026-10-22T04:00:00+00:00,unexpected_night_consumption,HIGH,After-hours chiller cooling override left active overnight
+MAIN-METER-01,2026-10-22T04:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: After-hours chiller cooling override left active overnight
+HVAC-01,2026-10-22T05:00:00+00:00,unexpected_night_consumption,HIGH,After-hours chiller cooling override left active overnight
+MAIN-METER-01,2026-10-22T05:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: After-hours chiller cooling override left active overnight
+HVAC-01,2026-10-22T06:00:00+00:00,unexpected_night_consumption,HIGH,After-hours chiller cooling override left active overnight
+MAIN-METER-01,2026-10-22T06:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: After-hours chiller cooling override left active overnight
+HVAC-01,2026-10-22T07:00:00+00:00,unexpected_night_consumption,HIGH,After-hours chiller cooling override left active overnight
+MAIN-METER-01,2026-10-22T07:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: After-hours chiller cooling override left active overnight
+HVAC-01,2026-10-22T08:00:00+00:00,unexpected_night_consumption,HIGH,After-hours chiller cooling override left active overnight
+MAIN-METER-01,2026-10-22T08:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: After-hours chiller cooling override left active overnight
+HVAC-01,2026-10-22T09:00:00+00:00,unexpected_night_consumption,HIGH,After-hours chiller cooling override left active overnight
+MAIN-METER-01,2026-10-22T09:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: After-hours chiller cooling override left active overnight
+HVAC-01,2026-10-22T10:00:00+00:00,unexpected_night_consumption,HIGH,After-hours chiller cooling override left active overnight
+MAIN-METER-01,2026-10-22T10:00:00+00:00,unexpected_night_consumption,HIGH,Combined meter reflects submeter anomaly: After-hours chiller cooling override left active overnight
+LIGHTING-01,2026-10-26T03:00:00+00:00,unexpected_night_consumption,MEDIUM,"Architectural lighting control relay stuck closed, keeping lights energized overnight"
+MAIN-METER-01,2026-10-26T03:00:00+00:00,unexpected_night_consumption,MEDIUM,"Combined meter reflects submeter anomaly: Architectural lighting control relay stuck closed, keeping lights energized overnight"
+LIGHTING-01,2026-10-26T04:00:00+00:00,unexpected_night_consumption,MEDIUM,"Architectural lighting control relay stuck closed, keeping lights energized overnight"
+MAIN-METER-01,2026-10-26T04:00:00+00:00,unexpected_night_consumption,MEDIUM,"Combined meter reflects submeter anomaly: Architectural lighting control relay stuck closed, keeping lights energized overnight"
+LIGHTING-01,2026-10-26T05:00:00+00:00,unexpected_night_consumption,MEDIUM,"Architectural lighting control relay stuck closed, keeping lights energized overnight"
+MAIN-METER-01,2026-10-26T05:00:00+00:00,unexpected_night_consumption,MEDIUM,"Combined meter reflects submeter anomaly: Architectural lighting control relay stuck closed, keeping lights energized overnight"
+LIGHTING-01,2026-10-26T06:00:00+00:00,unexpected_night_consumption,MEDIUM,"Architectural lighting control relay stuck closed, keeping lights energized overnight"
+MAIN-METER-01,2026-10-26T06:00:00+00:00,unexpected_night_consumption,MEDIUM,"Combined meter reflects submeter anomaly: Architectural lighting control relay stuck closed, keeping lights energized overnight"
+LIGHTING-01,2026-10-26T07:00:00+00:00,unexpected_night_consumption,MEDIUM,"Architectural lighting control relay stuck closed, keeping lights energized overnight"
+MAIN-METER-01,2026-10-26T07:00:00+00:00,unexpected_night_consumption,MEDIUM,"Combined meter reflects submeter anomaly: Architectural lighting control relay stuck closed, keeping lights energized overnight"
+LIGHTING-01,2026-10-26T08:00:00+00:00,unexpected_night_consumption,MEDIUM,"Architectural lighting control relay stuck closed, keeping lights energized overnight"
+MAIN-METER-01,2026-10-26T08:00:00+00:00,unexpected_night_consumption,MEDIUM,"Combined meter reflects submeter anomaly: Architectural lighting control relay stuck closed, keeping lights energized overnight"
+LIGHTING-01,2026-10-26T09:00:00+00:00,unexpected_night_consumption,MEDIUM,"Architectural lighting control relay stuck closed, keeping lights energized overnight"
+MAIN-METER-01,2026-10-26T09:00:00+00:00,unexpected_night_consumption,MEDIUM,"Combined meter reflects submeter anomaly: Architectural lighting control relay stuck closed, keeping lights energized overnight"
+LIGHTING-01,2026-10-26T10:00:00+00:00,unexpected_night_consumption,MEDIUM,"Architectural lighting control relay stuck closed, keeping lights energized overnight"
+MAIN-METER-01,2026-10-26T10:00:00+00:00,unexpected_night_consumption,MEDIUM,"Combined meter reflects submeter anomaly: Architectural lighting control relay stuck closed, keeping lights energized overnight"
+HVAC-01,2026-10-30T19:00:00+00:00,power_spike,CRITICAL,Chiller pump motor transient surge during peak afternoon thermal load
+MAIN-METER-01,2026-10-30T19:00:00+00:00,power_spike,CRITICAL,Combined meter reflects submeter anomaly: Chiller pump motor transient surge during peak afternoon thermal load
+PLUG-LOAD-01,2026-11-01T15:00:00+00:00,power_spike,HIGH,Server rack power distribution unit fault and localized power spike
+MAIN-METER-01,2026-11-01T15:00:00+00:00,power_spike,HIGH,Combined meter reflects submeter anomaly: Server rack power distribution unit fault and localized power spike
+LIGHTING-01,2026-11-05T15:00:00+00:00,power_spike,MEDIUM,Lighting circuit transient voltage surge and ballast spike
+MAIN-METER-01,2026-11-05T15:00:00+00:00,power_spike,MEDIUM,Combined meter reflects submeter anomaly: Lighting circuit transient voltage surge and ballast spike
+HVAC-01,2026-11-08T05:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T05:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T06:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T06:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T07:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T07:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T08:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T08:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T09:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T09:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T10:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T10:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T11:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T11:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T12:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T12:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T13:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T13:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T14:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T14:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T15:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T15:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T16:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T16:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T17:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T17:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T18:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T18:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T19:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T19:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T20:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T20:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T21:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T21:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T22:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T22:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-08T23:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-08T23:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T00:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T00:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T01:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T01:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T02:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T02:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T03:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T03:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T04:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T04:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T05:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T05:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T06:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T06:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T07:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T07:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+HVAC-01,2026-11-09T08:00:00+00:00,sustained_high_consumption,CRITICAL,"Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+MAIN-METER-01,2026-11-09T08:00:00+00:00,sustained_high_consumption,CRITICAL,"Combined meter reflects submeter anomaly: Cooling valve actuator seized fully open, forcing chilled water pump at continuous 100% capacity"
+PLUG-LOAD-01,2026-11-11T13:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T13:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T14:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T14:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T15:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T15:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T16:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T16:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T17:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T17:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T18:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T18:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T19:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T19:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T20:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T20:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T21:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T21:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T22:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T22:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-11T23:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-11T23:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-12T00:00:00+00:00,weekend_unauthorized_consumption,HIGH,Unapproved weekend high-intensity compute batch job executed across office workstations
+MAIN-METER-01,2026-11-12T00:00:00+00:00,weekend_unauthorized_consumption,HIGH,Combined meter reflects submeter anomaly: Unapproved weekend high-intensity compute batch job executed across office workstations
+PLUG-LOAD-01,2026-11-13T05:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T05:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T06:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T06:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T07:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T07:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T08:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T08:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T09:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T09:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T10:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T10:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T11:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T11:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T12:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T12:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T13:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T13:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T14:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T14:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T15:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T15:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T16:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T16:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T17:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T17:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T18:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T18:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T19:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T19:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T20:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T20:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T21:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T21:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours
+PLUG-LOAD-01,2026-11-13T22:00:00+00:00,sustained_high_consumption,HIGH,Continuous compute load on test servers left running unthrottled through business and night hours
+MAIN-METER-01,2026-11-13T22:00:00+00:00,sustained_high_consumption,HIGH,Combined meter reflects submeter anomaly: Continuous compute load on test servers left running unthrottled through business and night hours

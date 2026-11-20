@@ -1,0 +1,80 @@
+"""
+AI Energy Agent: answers questions about a facility from the platform's own analysis.
+Uses Claude if ANTHROPIC_API_KEY is set in backend/.env; otherwise a rule-based fallback.
+"""
+import json
+import os
+
+import httpx
+
+from app.config import settings
+
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-5-5")
+SYSTEM = (
+    "You are the Energy Agent of an enterprise facility-operations platform. "
+    "Answer ONLY from the JSON data provided (meters, kWh, INR cost, anomalies, recommendations). "
+    "Be concise (under 130 words), use concrete numbers and INR, explain likely causes of anomalies "
+    "and give 1-3 specific actions. If the data does not contain the answer, say so."
+)
+
+
+def build_context(summary: dict, analysis: dict, facility_name: str) -> dict:
+    return {
+        "facility": facility_name,
+        "period": summary["period"],
+        "kpis": summary["kpis"],
+        "energy_by_meter": summary["meter_breakdown"],
+        "anomaly_summary": analysis["anomaly_summary"],
+        "top_anomalies": analysis["anomalies"][:10],
+        "recommendations": analysis["recommendations"],
+    }
+
+
+def _ask_claude(question: str, context: dict):
+    key = settings.ANTHROPIC_API_KEY
+    if not key or len(key) < 20:
+        return None
+    try:
+        r = httpx.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+            json={
+                "model": MODEL,
+                "max_tokens": 600,
+                "system": SYSTEM,
+                "messages": [{"role": "user", "content": f"Facility data (JSON):\n{json.dumps(context, default=str)}\n\nQuestion: {question}"}],
+            },
+            timeout=40,
+        )
+        r.raise_for_status()
+        return "".join(b.get("text", "") for b in r.json().get("content", [])) or None
+    except Exception:
+        return None
+
+
+def _rules(question: str, c: dict) -> str:
+    q = question.lower()
+    k, a = c["kpis"], c["anomaly_summary"]
+    if any(w in q for w in ("anomal", "spike", "why", "unusual", "problem", "alert")):
+        if not c["top_anomalies"]:
+            return f"No anomalies were detected for {c['facility']} in the last 7 days."
+        lines = [f"{c['facility']}: {a['total']} anomalous readings in 7 days ({a['critical']} critical, {a['high']} high)."]
+        for x in c["top_anomalies"][:3]:
+            lines.append(f"- {x['meter_id']} at {x['recorded_at'][:16].replace('T', ' ')}: {x['power_kw']} kW, severity {x['severity']}.")
+        return "\n".join(lines)
+    if any(w in q for w in ("save", "recommend", "reduce", "improve", "action")):
+        return "\n".join(f"- [{r['priority']}] {r['title']}: {r['description']}" for r in c["recommendations"])
+    if any(w in q for w in ("cost", "bill", "spend", "rupee", "expens")):
+        return f"Over {c['period']['days']} days {c['facility']} used {k['total_energy_kwh']:,.0f} kWh, costing about Rs {k['cost_inr']:,.0f}."
+    if any(w in q for w in ("carbon", "co2", "emission")):
+        return f"Estimated carbon footprint: {k['carbon_tco2e']} tCO2e over {c['period']['days']} days."
+    if any(w in q for w in ("peak", "demand", "power")):
+        return f"Average power {k['average_power_kw']} kW, peak {k['peak_power_kw']} kW. Off-hours share of energy: {k['off_hours_share_pct']}%."
+    return "Try asking: 'Why are there anomalies?', 'How can we save energy?', 'What is the cost?' or 'What is the peak demand?'"
+
+
+def answer(question: str, context: dict) -> dict:
+    text = _ask_claude(question, context)
+    if text:
+        return {"answer": text, "mode": "llm"}
+    return {"answer": _rules(question, context), "mode": "rules"}

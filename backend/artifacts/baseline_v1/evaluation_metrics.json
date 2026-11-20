@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "evaluation_timestamp": "2026-11-15T04:56:53.895693+00:00",
+    "train_ratio": 0.7,
+    "test_ratio": 0.3,
+    "contamination_param": "0.03",
+    "features_used": [
+      "power_kw",
+      "hour_sin",
+      "hour_cos",
+      "day_sin",
+      "day_cos",
+      "is_weekend",
+      "rolling_mean_6h",
+      "rolling_std_6h",
+      "rolling_mean_24h",
+      "power_ratio_24h",
+      "power_diff_1h"
+    ],
+    "clean_training_assumption": "Known synthetic anomalies were excluded from the training split (first 70%) to train models on true normal operational baselines. The final 30% test holdout was evaluated blind without exposure to test labels during fitting.",
+    "synthetic_evaluation_limitations": [
+      "Synthetic patterns follow parameterized sinusoidal and operational templates which exhibit higher regularity than real-world facilities with stochastic occupant behavior.",
+      "In real industrial/commercial environments, sensor drift, weather extremes, equipment degradation, and unmetered tenant alterations produce false-positive noise not captured in synthetic data.",
+      "High precision on synthetic injection reflects model alignment with known mathematical injection templates; real-world production performance typically requires human-in-the-loop triage and adaptive threshold retraining."
+    ]
+  },
+  "overall": {
+    "total_samples": 2592,
+    "actual_normals": 2438,
+    "actual_anomalies": 154,
+    "predicted_anomalies": 181,
+    "confusion_matrix": {
+      "true_positives": 95,
+      "false_positives": 86,
+      "true_negatives": 2352,
+      "false_negatives": 59
+    },
+    "accuracy": 0.9441,
+    "precision": 0.5249,
+    "recall": 0.6169,
+    "f1_score": 0.5672
+  },
+  "per_meter": {
+    "HVAC-01": {
+      "total_samples": 648,
+      "actual_normals": 611,
+      "actual_anomalies": 37,
+      "predicted_anomalies": 51,
+      "confusion_matrix": {
+        "true_positives": 34,
+        "false_positives": 17,
+        "true_negatives": 594,
+        "false_negatives": 3
+      },
+      "accuracy": 0.9691,
+      "precision": 0.6667,
+      "recall": 0.9189,
+      "f1_score": 0.7727,
+      "clean_training_samples": 1467,
+      "excluded_train_anomalies": 45,
+      "test_samples": 648
+    },
+    "LIGHTING-01": {
+      "total_samples": 648,
+      "actual_normals": 639,
+      "actual_anomalies": 9,
+      "predicted_anomalies": 21,
+      "confusion_matrix": {
+        "true_positives": 6,
+        "false_positives": 15,
+        "true_negatives": 624,
+        "false_negatives": 3
+      },
+      "accuracy": 0.9722,
+      "precision": 0.2857,
+      "recall": 0.6667,
+      "f1_score": 0.4,
+      "clean_training_samples": 1503,
+      "excluded_train_anomalies": 9,
+      "test_samples": 648
+    },
+    "PLUG-LOAD-01": {
+      "total_samples": 648,
+      "actual_normals": 617,
+      "actual_anomalies": 31,
+      "predicted_anomalies": 71,
+      "confusion_matrix": {
+        "true_positives": 31,
+        "false_positives": 40,
+        "true_negatives": 577,
+        "false_negatives": 0
+      },
+      "accuracy": 0.9383,
+      "precision": 0.4366,
+      "recall": 1.0,
+      "f1_score": 0.6078,
+      "clean_training_samples": 1487,
+      "excluded_train_anomalies": 25,
+      "test_samples": 648
+    },
+    "MAIN-METER-01": {
+      "total_samples": 648,
+      "actual_normals": 571,
+      "actual_anomalies": 77,
+      "predicted_anomalies": 38,
+      "confusion_matrix": {
+        "true_positives": 24,
+        "false_positives": 14,
+        "true_negatives": 557,
+        "false_negatives": 53
+      },
+      "accuracy": 0.8966,
+      "precision": 0.6316,
+      "recall": 0.3117,
+      "f1_score": 0.4174,
+      "clean_training_samples": 1433,
+      "excluded_train_anomalies": 79,
+      "test_samples": 648
+    }
+  }
+}
