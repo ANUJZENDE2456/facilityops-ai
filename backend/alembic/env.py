@@ -31,7 +31,7 @@ target_metadata = Base.metadata
 
 # Inject database URL dynamically from environment / settings
 effective_url = resolve_database_url(settings.DATABASE_URL)
-config.set_main_option("sqlalchemy.url", effective_url)
+config.set_main_option("sqlalchemy.url", effective_url.replace("%", "%%"))
 
 
 # -----------------------------------------------------------------------------
