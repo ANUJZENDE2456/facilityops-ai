@@ -60,6 +60,12 @@ class Facility(Base):
         passive_deletes=True,
         doc="Collection of energy telemetry readings associated with this facility",
     )
+    assets = relationship(
+        "Asset",
+        back_populates="facility",
+        cascade="all, delete-orphan",
+        passive_deletes=True,
+    )
 
     def __repr__(self) -> str:
         return (
