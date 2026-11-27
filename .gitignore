@@ -115,3 +115,6 @@ Thumbs.db
 
 # Local backup files
 *.bak
+
+# Local PostgreSQL database backup
+/facilityops_data.sql

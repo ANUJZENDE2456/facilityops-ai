@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 from app.routes.energy import router as energy_router
+from app.routes.maintenance import router as maintenance_router
 
 from app.config import settings
 from app.database import get_db
@@ -28,6 +29,10 @@ app.add_middleware(
 )
 app.include_router(
     energy_router,
+    prefix=settings.API_PREFIX,
+)
+app.include_router(
+    maintenance_router,
     prefix=settings.API_PREFIX,
 )
 

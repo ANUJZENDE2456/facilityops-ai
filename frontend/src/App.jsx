@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import * as api from './services/energyService';
 import './App.css';
+import MaintenanceDashboard from './components/maintenanceDashboard.jsx';
 
 const TABS = ['Campus Overview', 'Building Detail', 'Anomalies', 'AI Energy Agent', 'Recommendations'];
 const METERS = ['MAIN-METER-01', 'HVAC-01', 'LIGHTING-01', 'PLUG-LOAD-01'];
@@ -302,9 +303,11 @@ function Recommendations({ fid }) {
 
 export default function App() {
   const [tab, setTab] = useState(TABS[0]);
+  const [module, setModule] = useState('Energy');
   const [facilities, setFacilities] = useState([]);
   const [fid, setFid] = useState(null);
   const [error, setError] = useState('');
+
 
   useEffect(() => {
     api.getFacilities().then((f) => { setFacilities(f); if (f.length) setFid(f[0].id); }).catch((e) => setError(e.message));
@@ -320,7 +323,7 @@ export default function App() {
       <header>
         <div>
           <h1>FacilityOps AI <span>Energy Intelligence &amp; Monitoring</span></h1>
-          <p>Agentic FacilityOps AI Platform | Milestone 1 | Simulated campus data</p>
+          <p>Agentic FacilityOps AI Platform | Simulated campus data</p>
         </div>
         <label>Building
           <select value={fid} onChange={(e) => setFid(+e.target.value)}>
@@ -328,12 +331,45 @@ export default function App() {
           </select>
         </label>
       </header>
-      <nav>{TABS.map((t) => <button key={t} className={t === tab ? 'active' : ''} onClick={() => setTab(t)}>{t}</button>)}</nav>
-      {tab === 'Campus Overview' && <CampusOverview onOpen={open} />}
-      {tab === 'Building Detail' && <BuildingDetail fid={fid} />}
-      {tab === 'Anomalies' && <Anomalies fid={fid} />}
-      {tab === 'AI Energy Agent' && <Agent fid={fid} name={current?.name} />}
-      {tab === 'Recommendations' && <Recommendations fid={fid} />}
+      <nav className="module-nav">
+        <button
+          className={module === 'Energy' ? 'active' : ''}
+          onClick={() => setModule('Energy')}
+        >
+          Energy Monitoring
+        </button>
+        <button
+          className={module === 'Maintenance' ? 'active' : ''}
+          onClick={() => setModule('Maintenance')}
+        >
+          Predictive Maintenance
+        </button>
+      </nav>
+
+      {module === 'Energy' && (
+        <nav>
+          {TABS.map((t) => (
+            <button
+              key={t}
+              className={t === tab ? 'active' : ''}
+              onClick={() => setTab(t)}
+            >
+              {t}
+            </button>
+          ))}
+        </nav>
+      )}
+      {module === 'Energy' ? (
+        <>
+          {tab === 'Campus Overview' && <CampusOverview onOpen={open} />}
+          {tab === 'Building Detail' && <BuildingDetail fid={fid} />}
+          {tab === 'Anomalies' && <Anomalies fid={fid} />}
+          {tab === 'AI Energy Agent' && <Agent fid={fid} name={current?.name} />}
+          {tab === 'Recommendations' && <Recommendations fid={fid} />}
+        </>
+      ) : (
+        <MaintenanceDashboard facilityId={fid} />
+      )}
     </div>
   );
 }
